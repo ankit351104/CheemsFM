@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/drawable/activity_splash_background.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/drawable/indicator0.xml" value="0.1" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/drawable/indicator1.xml" value="0.1" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/activity_above18.xml" value="0.2" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/activity_dev.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/activity_doge_stories.xml" value="0.264" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/activity_feedback.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/activity_image_memes.xml" value="0.1" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/activity_meme_img.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/activity_memes.xml" value="0.25" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/activity_normal_stories.xml" value="0.1" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/activity_player.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/activity_player2.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/activity_story_list.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/activity_submit.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/activity_video_memes.xml" value="0.2" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/image_layout.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/paths.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/recyclerview_item_row.xml" value="0.4" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/story_layout.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/story_list.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/test.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/layout/video_view.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/xml/paths.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Ankit/AndroidStudioProjects/CheemsFM/app/src/main/res/xml/xml.xml" value="0.2269021739130435" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

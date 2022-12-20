@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cheemsfm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CheemsFM"
+        android:usesCleartextTraffic="true">
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.company.app.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/paths" />
+        </provider>
+        <activity
+            android:name=".Dev"
+            android:exported="false" />
+        <activity
+            android:name=".submit"
+            android:exported="false"
+            android:label="Submit and get featured"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".video_memes"
+            android:exported="false"
+            android:label="Video Memes"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".player2"
+            android:exported="false" />
+        <activity
+            android:name=".player"
+            android:exported="false"
+            android:label="Available Stories"
+            android:parentActivityName=".Normal_stories" />
+        <activity
+            android:name=".Story_list"
+            android:exported="false"
+            android:label="Available Stories"
+            android:parentActivityName=".Doge_Stories" />
+        <activity
+            android:name=".Feedback"
+            android:exported="false"
+            android:label="Feedback/Request a Feature"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".above18"
+            android:exported="false"
+            android:label="18+ Dogesh"
+            android:parentActivityName=".Doge_Stories" />
+        <activity
+            android:name=".Normal_stories"
+            android:exported="false"
+            android:label="Dogesh and Dogelina Presents"
+            android:parentActivityName=".Doge_Stories" />
+        <activity
+            android:name=".Doge_Stories"
+            android:exported="false"
+            android:label="Doge Stories"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Memes"
+            android:exported="false"
+            android:label="Doge Memes"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>
